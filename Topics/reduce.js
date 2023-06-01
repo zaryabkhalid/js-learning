@@ -1,21 +1,24 @@
 /**
- * TODO: REDUCE EXAMPLE
+ * ! REDUCE EXAMPLE
  * ? How it works and what is the use case of this method ?
+ * TODO: There can be many use cases for this method but the most common case is calculating multiple values and then returning the single value either its a sum or subtract value etc.
  */
-const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const initialValue = 0;
 
+//! When first time this function runs the acc ==> accumulator value is going to be the initial value
+
 const newNumber = numbers.reduce((acc, curr) => {
-	// console.log(`Accumulator value is ${acc} and Current Val is ${curr}`);
+	console.log(`Accumulator value is ${acc} and Current Val is ${curr}`);
 	return acc + curr;
 }, initialValue);
 
-// console.log(newNumber);
+console.log(newNumber);
 
 /*
  * PRACTICAL EXAMPLE OF REDUCE METHOD
- * SHOPING CART
+ * SHOPING CART EXAMPLE
  */
 
 const shoppingCart = [
