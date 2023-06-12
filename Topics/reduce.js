@@ -19,7 +19,7 @@ console.log(newNumber);
 /*
  * PRACTICAL EXAMPLE OF REDUCE METHOD
  * SHOPING CART EXAMPLE
- */
+*/
 
 const shoppingCart = [
 	{
